@@ -1,6 +1,7 @@
 /*importend fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Outfit:wght@500&family=Work+Sans&display=swap');
 
 *{
     margin: 0;
@@ -39,4 +40,42 @@ ul {
     margin: 16px;
     text-decoration: none;
     font-size: x-large;
+}
+
+/*article*/
+
+#container-div {
+    width: 60%;
+    margin: auto;
+    margin-top: 16px;
+    border: #E19E20 groove;
+    background-color: #e9f5f9;
+}
+
+section h1 {
+    color: #2F82C0;
+    font-family: 'josefin sons', sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+    margin: 6px 0 32px;
+}
+
+h2 {
+    font-family: 'outfit', sans-serif;
+    color: #E19E20;
+    position: relative;
+    padding: 2em 0 0 6em;
+}
+
+section p {
+    font-family: 'Outfit', sans-serif;
+    margin: 3em 7em;
+    letter-spacing: .5px;
+}
+/*image*/
+#title-image {
+    margin: auto;
+    text-align: center;
+    font-size: small;
+    font-family: 'Outfit', sans-serif;
 }
