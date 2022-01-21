@@ -1,0 +1,42 @@
+/*importend fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Outfit:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+header {
+    background-color: #2F82C0;
+}
+
+#logo {
+    text-transform: uppercase;
+    font-family: 'josefin sons', sans-serif;
+    text-decoration: none;
+    color: #E6F4F1;
+    font-size: xx-large;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-list {
+    float: right;
+}
+
+.nav-buttons {
+    display: block;
+    color: #E6F4F1;
+    font-family: 'outfit', sans-serif;
+    padding: 8px;
+    margin: 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
