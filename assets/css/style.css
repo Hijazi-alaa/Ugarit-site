@@ -157,7 +157,7 @@ aside a, a:visited {
 #footer-div {
     width: 100%;
     background-color: #2F82C0;
-    height: 200px;
+    height: 120px;
 }
 
 footer a:visited {
@@ -172,8 +172,8 @@ footer a {
 
 #sources-list {
     position: relative;
-    left: 8em;
-    top: 1.5em;
+    left: 12%;
+    top: 12%;
     color: #E19E20;
     font-size: large;
     max-width: 200px;
@@ -188,8 +188,8 @@ footer a {
 
 #other-pages-list {
     position: relative;
-    left: 26em;
-    bottom: 2.6em;
+    left: 35%;
+    bottom: 52%;
     color: #E19E20;
     font-size: large;
     max-width: 200px;
@@ -198,4 +198,20 @@ footer a {
 .other-pages {
     font-size: small;
     text-decoration: none;
+}
+
+/*social media*/
+
+#social-media-list {
+    position: relative;
+    color: #E19E20;
+    font-size: large;
+    max-width: 200px;
+    left: 65%;
+    bottom: 110%;
+}
+
+#social-media-list > li {
+    display: inline;
+    font-size: xxx-large;
 }
