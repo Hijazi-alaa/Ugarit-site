@@ -94,7 +94,7 @@ section p {
 /*youtube video*/
 
 #song-video {
-    margin-left: 20%;
+    margin-left: 15%;
     font-family: 'Outfit', sans-serif;
     color: #2A8E43;
 }
@@ -131,7 +131,7 @@ aside {
 
 #aside-title{
     font-family: 'outfit', sans-serif;
-    color: #3C4856;
+    color: #E6F4F1;
     padding-left: 12px;
     text-decoration-line: underline;
     text-transform: capitalize;
