@@ -72,7 +72,17 @@ section p {
     margin: 3em 7em;
     letter-spacing: .5px;
 }
+/*image inside the article*/
+
+#alphabet-image {
+    text-align: center;
+    color: #2A8E43;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
 /*image*/
+
 #title-image {
     margin: auto;
     text-align: center;
