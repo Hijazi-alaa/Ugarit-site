@@ -89,3 +89,26 @@ section p {
     font-size: small;
     font-family: 'Outfit', sans-serif;
 }
+
+/*youtube video*/
+
+#song-video {
+    margin-left: 20%;
+    font-family: 'Outfit', sans-serif;
+    color: #2A8E43;
+}
+
+/*list of links to songs*/
+
+.song-list {
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: .4px;
+    margin: 0 0 12px 64px;
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    color: #00B6FF;
+}
