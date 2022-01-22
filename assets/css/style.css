@@ -23,7 +23,7 @@ header {
     float: left;
 }
 
-ul {
+#header-nav {
     list-style-type: none;
     overflow: hidden;
 }
@@ -60,7 +60,7 @@ section h1 {
     margin: 6px 0 32px;
 }
 
-h2 {
+.section-title {
     font-family: 'outfit', sans-serif;
     color: #E19E20;
     position: relative;
@@ -108,7 +108,43 @@ section p {
     list-style-type: square;
 }
 
-a {
+.song-list-link {
     text-decoration: none;
     color: #00B6FF;
+}
+
+/*aside*/
+
+aside {
+    margin: auto;
+    background-color: #2F82C0;
+    width: 220px;
+    height: 220px;
+    position: fixed;
+    left: 81%;
+    top: 16%;
+    border: 2px;
+    border-color: #E19E20;
+    border-style: groove;
+}
+
+#aside-title{
+    font-family: 'outfit', sans-serif;
+    color: #3C4856;
+    padding-left: 12px;
+    text-decoration-line: underline;
+}
+
+aside li {
+    font-family: 'outfit', sans-serif;
+    color: #E19E20;
+    list-style-type: none;
+    letter-spacing: .5px;
+    margin: 16px;
+    padding-left: 12px;
+}
+
+aside a, a:visited {
+    text-decoration: none;
+    color: #E19E20;
 }
