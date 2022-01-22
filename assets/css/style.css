@@ -160,12 +160,23 @@ aside a, a:visited {
     height: 200px;
 }
 
+footer a:visited {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/*sources*/
+
 #sources-list {
     position: relative;
     left: 8em;
     top: 1.5em;
     color: #E19E20;
     font-size: large;
+    max-width: 200px;
 }
 
 .sources {
@@ -173,10 +184,18 @@ aside a, a:visited {
     text-decoration: none;
 }
 
-footer a:visited {
-    color: white;
+/*other pages*/
+
+#other-pages-list {
+    position: relative;
+    left: 26em;
+    bottom: 2.6em;
+    color: #E19E20;
+    font-size: large;
+    max-width: 200px;
 }
 
-footer a {
+.other-pages {
+    font-size: small;
     text-decoration: none;
 }
