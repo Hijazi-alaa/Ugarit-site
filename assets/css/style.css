@@ -48,6 +48,7 @@ header {
     width: 60%;
     margin: auto;
     margin-top: 16px;
+    margin-bottom: 16px;
     border: #E19E20 groove;
     background-color: #e9f5f9;
 }
@@ -133,6 +134,7 @@ aside {
     color: #3C4856;
     padding-left: 12px;
     text-decoration-line: underline;
+    text-transform: capitalize;
 }
 
 aside li {
@@ -142,9 +144,39 @@ aside li {
     letter-spacing: .5px;
     margin: 16px;
     padding-left: 12px;
+    text-transform: capitalize;
 }
 
 aside a, a:visited {
     text-decoration: none;
     color: #E19E20;
+}
+
+/*footer*/
+
+#footer-div {
+    width: 100%;
+    background-color: #2F82C0;
+    height: 200px;
+}
+
+#sources-list {
+    position: relative;
+    left: 8em;
+    top: 1.5em;
+    color: #E19E20;
+    font-size: large;
+}
+
+.sources {
+    font-size: small;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
 }
