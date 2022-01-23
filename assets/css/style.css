@@ -44,7 +44,7 @@ header {
 
 /*article*/
 
-#container-div {
+.container-div {
     width: 60%;
     margin: auto;
     margin-top: 16px;
@@ -73,6 +73,17 @@ section p {
     margin: 3em 7em;
     letter-spacing: .5px;
 }
+
+/*home-image*/
+
+#title-image {
+    margin: auto;
+    text-align: center;
+    font-size: small;
+    font-family: 'Outfit', sans-serif;
+    color: #2A8E43;
+}
+
 /*image inside the article*/
 
 #alphabet-image {
@@ -80,15 +91,6 @@ section p {
     color: #2A8E43;
     font-family: 'Outfit', sans-serif;
     
-}
-
-/*image*/
-
-#title-image {
-    margin: auto;
-    text-align: center;
-    font-size: small;
-    font-family: 'Outfit', sans-serif;
 }
 
 /*youtube video*/
@@ -214,4 +216,23 @@ footer a {
 #social-media-list > li {
     display: inline;
     font-size: xxx-large;
+}
+
+/*gallery*/
+
+#gallery-title {
+    color: #2F82C0;
+    font-family: 'josefin sons', sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+    margin: 6px 0 32px;
+}
+
+.gallery-fig {
+    margin: auto;
+    text-align: center;
+    font-size: small;
+    font-family: 'Outfit', sans-serif;
+    color: #2A8E43;
+    padding: 3em;
 }
