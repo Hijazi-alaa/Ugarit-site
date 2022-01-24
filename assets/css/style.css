@@ -23,6 +23,10 @@ header {
     float: left;
 }
 
+#logo:hover {
+    border: 2px solid #E6F4F1
+}
+
 #header-nav {
     list-style-type: none;
     overflow: hidden;
@@ -40,6 +44,14 @@ header {
     margin: 16px;
     text-decoration: none;
     font-size: x-large;
+}
+
+.nav-buttons:hover {
+    border:2px solid #E19E20 ;
+}
+
+.nav-buttons:active {
+    color:#E19E20
 }
 
 /*article*/
@@ -73,6 +85,22 @@ section p {
     margin: 3em 7em;
     letter-spacing: .5px;
 }
+
+.wiki-definition {
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: #2F82C0;
+}
+
+.wiki-definition:link {
+    color: #2F82C0;
+}
+
+.wiki-definition:visited {
+    color: #2A8E43;
+}
+
+
 
 /*home-image*/
 
@@ -149,9 +177,15 @@ aside li {
     text-transform: capitalize;
 }
 
-aside a, a:visited {
+.aside-nav {
     text-decoration: none;
     color: #E19E20;
+}
+
+.aside-nav:hover {
+    border-bottom: 1px solid #E19E20;
+}
+.aside-nav:active {color:#E6F4F1;
 }
 
 /*footer*/
@@ -297,3 +331,4 @@ form > h3 {
     color: grey;
     border: 2px solid #0a0a0a;
 }
+
