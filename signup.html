@@ -21,18 +21,20 @@
             </ul>
         </nav>
     </header>
-    <form action="https://formdump.codeinstitute.net/" method="post">
+    <form action="https://formdump.codeinstitute.net/" method="post" id="form">
+        <h3>Sign up to get the latest news about Ugarit!</h3>
         <label for="user-name">User Name</label>
-        <input type="text" id="user-name" name="username" placeholder="Enter a user name" required>
+        <input type="text" id="user-name" name="username" placeholder="Enter a user name" class="text-input" required>
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="email-address" placeholder="Your Email Address" required>
+        <input type="email" id="email" name="email-address" placeholder="Your Email Address" class="text-input" required>
         <label for="password">Creat a Password</label>
-        <input type="password" id="password" name="password" placeholder="******" required>
+        <input type="password" id="password" name="password" placeholder="Create a password" class="text-input" required>
+        <!--input before label to have chekcboxes first before texts-->
+        <input type="checkbox" id="checkbox-mail" name="receive_emails" value="yes" class="checkboxes">
+        <label for="checkbox-mail">I want to receive news letters</label>
+        <input type="checkbox" name="accept_terms" id="checkbox-terms" value="yes" class="checkboxes" required>
+        <label for="checkbox-terms">I agree to  terms</label>
         <label for="submit"></label>
-        <input type="submit" id="submit" value="Sign Up!">
-        <label for="checkbox-terms">I agree to the terms and conditions</label>
-        <input type="checkbox" name="accept_terms" id="checkbox-terms" value="yes" required>
-        <label for="checkbox-mail">I want to receive emails with the latest news</label>
-        <input type="checkbox" id="checkbox-mail" name="receive_emails" value="yes">
+        <input type="submit" id="submit" value="Sign Up!" class="submit-button">
     </form>
 </body>

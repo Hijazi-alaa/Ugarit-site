@@ -236,3 +236,49 @@ footer a {
     color: #2A8E43;
     padding: 3em;
 }
+
+/*form*/
+
+#form {
+    margin: 8% 8% 10% 50%;
+    background-color: #e9f5f9;
+    max-width: 500px;
+    height: 360px;
+    position: absolute;
+    padding: 40px;
+    color: #2F82C0;
+    font-family: 'Outfit', sans-serif;
+    border: #E19E20 groove;
+}
+
+.text-input {
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    height: 32px;
+    margin: 8px 0 12px;
+    color: #E19E20;
+    background-color: #e9f5f9;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+form > h3 {
+    color: #E19E20;
+    margin-bottom: 16px;
+    font-family: 'outfit', sans-serif;
+}
+
+.checkboxes {
+    margin: 20px;
+}
+
+.submit-button {
+    margin: 12px;
+    width: 32%;
+    height: 12%;
+    border-radius: 5px;
+    border: solid #E19E20;
+    color: #2F82C0;
+    font-family: 'Outfit', sans-serif;
+    font-size: x-large;
+}
