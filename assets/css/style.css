@@ -217,7 +217,7 @@ footer a:hover {
 
 #sources-list {
     position: relative;
-    left: 12%;
+    left: 5%;
     top: 12%;
     color: #E19E20;
     font-size: large;
@@ -235,7 +235,7 @@ footer a:hover {
 #other-pages-list {
     position: relative;
     left: 35%;
-    bottom: 52%;
+    bottom: 60%;
     color: #E19E20;
     font-size: large;
     max-width: 200px;
@@ -254,7 +254,7 @@ footer a:hover {
     font-size: x-large;
     max-width: 200px;
     left: 65%;
-    bottom: 110%;
+    bottom: 120%;
 }
 
 #social-media-list > li {
@@ -287,7 +287,7 @@ footer a:hover {
     margin: 8% 8% 10% 50%;
     background-color: #e9f5f9;
     max-width: 500px;
-    height: 360px;
+    height: 50%;
     position: absolute;
     padding: 40px;
     color: #2F82C0;
@@ -315,17 +315,15 @@ form > h3 {
     font-family: 'outfit', sans-serif;
 }
 
-.checkboxes {
-    margin: 20px;
-}
+
 .checkboxes:hover {
     border:1px solid #E19E20;
 }
 
 .submit-button {
-    margin: 12px;
-    width: 32%;
-    height: 12%;
+    margin: 64px;
+    width: 160px;
+    height: 52px;
     border-radius: 5px;
     border: solid #E19E20;
     color: #2F82C0;
@@ -343,14 +341,121 @@ form > h3 {
 }
 
 /*Media queries*/
+@media screen and (max-width:1050px) {
+    #form {
+        height: 65%;
+    }
+}
 
 @media screen and (max-width: 800px) {
-aside {
+
+    aside {
     width: 160px;
     height: 280px;
 }
+
 #container-div {
     width: 80%;
     margin-left: 0;
 }
+#form {
+    margin: 10% 10% 0 5%;
+}
+
+}
+
+@media screen and (max-width:645px) {
+    #footer-div {
+        height: 320px;
+    }
+    #other-pages-list {
+        left:5%;
+        top: 24%;
+    }
+    #social-media-list {
+        position: absolute;
+        bottom: auto; 
+    }
+    #header-nav {
+        clear: left;
+        float: left;
+        margin-left: 32px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    header {
+        height: 180px;
+    }
+
+    #container-div {
+        margin-top: 10%;
+    }
+
+    iframe {
+        width: 380px;
+        height: 260px;
+    }
+    
+    #song-video {
+        margin-left: 25px;
+    }
+
+    section p {
+        margin: 12px 12px;
+        letter-spacing: normal;
+    }
+    img {
+        outline: 0;
+        width: 400px;
+    }
+}
+@media screen and (max-width:405px) {
+    img {
+        width: 250px;
+    }
+    iframe {
+        width: 250px;
+    }
+    #header-nav {
+        margin-left: 0;
+        line-height: 50px;
+    }
+    aside {
+        width: 120px;
+        height: 280px;
+        top: auto;
+        left: 70%;
+    }
+    aside li {
+        margin:2px;
+        letter-spacing: 1px;
+        padding-left: 2px;
+    }
+    .section-title {
+        padding: 0 0 0 5px;
+    }
+}
+@media screen and (max-width:275px) {
+    img {
+        width: 180px;
+    }
+    iframe {
+        width: 180px;
+        height: 200px;
+    }
+    #header-nav {
+        line-height: 12px;
+    }
+    #logo{
+        margin: 0;
+    }
+    #social-media-list {
+        position: relative;
+        left: 5%;
+        top: 30%;
+    }
+    .song-list {
+        margin: 0 24px 0 0;
+    }
 }
