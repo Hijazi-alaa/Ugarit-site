@@ -21,10 +21,7 @@ header {
     color: #E6F4F1;
     font-size: xx-large;
     float: left;
-}
-
-#logo:hover {
-    border: 2px solid #E6F4F1
+    margin-left: 32px;
 }
 
 #header-nav {
@@ -56,14 +53,11 @@ header {
 
 /*article*/
 
-.container-div {
+#container-div {
     width: 60%;
     margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    border: #E19E20 groove;
-    background-color: #e9f5f9;
 }
+
 
 section h1 {
     color: #2F82C0;
@@ -213,6 +207,7 @@ footer a:visited {
 
 footer a {
     text-decoration: none;
+    color: #e9f5f9;
 }
 footer a:hover {
     border-bottom: 1px solid #e9f5f9;
@@ -229,8 +224,9 @@ footer a:hover {
     max-width: 200px;
 }
 
+
 .sources {
-    font-size: small;
+    font-size: medium;
     text-decoration: none;
 }
 
@@ -246,7 +242,7 @@ footer a:hover {
 }
 
 .other-pages {
-    font-size: small;
+    font-size: medium;
     text-decoration: none;
 }
 
@@ -255,7 +251,7 @@ footer a:hover {
 #social-media-list {
     position: relative;
     color: #E19E20;
-    font-size: large;
+    font-size: x-large;
     max-width: 200px;
     left: 65%;
     bottom: 110%;
@@ -346,3 +342,15 @@ form > h3 {
     border: 2px solid #0a0a0a;
 }
 
+/*Media queries*/
+
+@media screen and (max-width: 800px) {
+aside {
+    width: 160px;
+    height: 280px;
+}
+#container-div {
+    width: 80%;
+    margin-left: 0;
+}
+}
