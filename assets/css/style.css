@@ -419,7 +419,7 @@ form > h3 {
     }
     #header-nav {
         margin-left: 0;
-        line-height: 50px;
+        line-height: 0px;
     }
     aside {
         width: 120px;
@@ -434,6 +434,14 @@ form > h3 {
     }
     .section-title {
         padding: 0 0 0 5px;
+    }
+    #form {
+        width: 160px;
+        margin-top: 112px;
+    }
+
+    .submit-button {
+        width: 80px;
     }
 }
 @media screen and (max-width:275px) {
