@@ -466,4 +466,8 @@ form > h3 {
     .song-list {
         margin: 0 24px 0 0;
     }
+    #form {
+        width: 120px;
+        height: 600px;
+    }
 }
