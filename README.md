@@ -4,6 +4,16 @@
 The Ugarit Site, is a historical site about the ancient city of Ugarit, surprisingly a lot of people have not heard of the city despite its huge contributions to our civilisation. In the site i attempt to introduce the city to as many people as possiable, or perhaps provide more detailed information for those who already know about Ugarit. the main sites objective is to have as much information as possiable about the city and its civilization all in one place, mainly to those who are interested in histoy in general, and bronze age civilizations in depth. but also to those who are curious about any of the content's avialable information!
 the site also can become as a library of information about this historical subject.
 
+I wanted to have as simple design that focus on the accessibility and easy to use, since the focus is the value of information as a whole
+i used figma.com to create a mock up, wish looked like this:
+
+<img src="assets/images/ugarit-mock-up.png">
+<br><br>
+<hr>
+<br><br>
+
+## Ugarit was tested on [am i responsive site](http://ami.responsivedesign.is/)
+and tested on all screen sizes. i have made the necessary adjustments by applying media query to css to ensure that the site is useable on all sizes
  <img src="assets/images/responsive.png">
 
 ## Main features:
@@ -35,6 +45,8 @@ the site also can become as a library of information about this historical subje
 
 A floating aside element with fixed positioning that provides navigation buttons to make it easier for users to navigate between the 4 different sections within the main content of the home page.
 <hr>
+
+
 
 ### Gallery Page
 <img src="assets/images/gallery.jpg">
