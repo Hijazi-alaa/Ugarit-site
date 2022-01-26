@@ -1,108 +1,141 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ugarit Website
+[Ugarit](https://hijazi-alaa.github.io/Ugarit-site/index.html)
 
-Welcome Alaa Hijazi,
+The Ugarit Site, is a historical site about the ancient city of Ugarit, surprisingly a lot of people have not heard of the city despite its huge contributions to our civilisation. In the site i attempt to introduce the city to as many people as possiable, or perhaps provide more detailed information for those who already know about Ugarit. the main sites objective is to have as much information as possiable about the city and its civilization all in one place, mainly to those who are interested in histoy in general, and bronze age civilizations in depth. but also to those who are curious about any of the content's avialable information!
+the site also can become as a library of information about this historical subject.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ <img src="assets/images/responsive.png">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Main features:
 
-## Gitpod Reminders
+### Header
+<img src="assets/images/header.jpg">
+<li>Placed in a header  a logo at the left acting aslo as a button to the home page.</li>
+<li>Navigation bar at the right side of the header with 3 buttons leading to Home, Gallery and sign up pages.</li>
+<hr>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Article section
+<img src="assets/images/article.jpg">
+<li>Main image at the top of the article</li>
+<li>Main content article wish is divided into 4 sections each with its own title</li>
+<li>Provided external links to  the subjects that may not be known to all visitors, this way anyone could still be able to understand the information provided</li>
+<li>An iframe element containing a youtube video to be played within the page or on youtube main site, and 3 extra external links to different virgion of the Hurrian song (first musical notation in history)</li>
+<hr>
 
-`python3 -m http.server`
+### Footer
+<img src="assets/images/footer.jpg">
+3 lists nested inside the footer containing:
+<li>Links to sources that the information in the site are credited to</li>
+<li>Other pages that users might find interesting about the same subject.</li>
+<li>social media links presented with logos provided by fontawsome.com.</li>
+<hr>
 
-A blue button should appear to click: _Make Public_,
+### Shortcut navigation list
+<img src="assets/images/aside.jpg">
 
-Another blue button should appear to click: _Open Browser_.
+A floating aside element with fixed positioning that provides navigation buttons to make it easier for users to navigate between the 4 different sections within the main content of the home page.
+<hr>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Gallery Page
+<img src="assets/images/gallery.jpg">
+A gallery page with several images nested within a figure element and provided with a figcaption to make it more accessible, and make it easier to add more images in the future.
+<hr>
 
-A blue button should appear to click: _Make Public_,
+### Sign Up Page
+<img src="assets/images/sign-up.jpg">
 
-Another blue button should appear to click: _Open Browser_.
+A sign up  page for users who wish to become members and receive emails from the Ugarit site. 
+<hr>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Testing
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Upon testing the html code on
+[W3C Validator](https://validator.w3.org/)
+, i encountered several error regarding closing tags in the some paragraphs
+and others erros such as having heading elemnts within unorderd lists elements, wish i was able to fix.
+so now testing with [W3C Validator](https://validator.w3.org/) is tottaly error free.
+<img src="assets/images/validator.jpg">
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+I also ran  the site on [Jigsaw](https://jigsaw.w3.org/css-validator/) and the resault was error free.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<img src="assets/images/jigsaw.jpg">
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<li>Using the Lighthouse tool of google dev i got the following resaults:</li>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<img src="assets/images/lighthouse-1.jpg">
+<hr>
+<img src="assets/images/lighthouse-2.jpg">
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<li>I test the website on Google chrome, Internet exlorer, Safari for iphone, i had the same error free resaults on all of them</li>
+<li>However upon running the website on Firefox there was unnecessary white space under the footer that i was not able to find the cause or the solution!(only on firefox)</li>
+<img src="assets/images/firefox.jpg">
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<li>I tried ever single external link all of them were working, except for the sources and other pages link in the footer, they were not appearing as clickable links at all andI could not find the exact problem, so i redid the html code for them and now they work fine just like the other links in the page</li>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Deployment
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The site is deployed on github pages by following these steps:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<li>In the github repository, navigated to the settings tab</li>
+<li>In the settings tab navigated to the pages tab</li>
+<li>Within the pages tab section click on the dropdown menu within source section and chose main </li>
+<li>A new icon Appeared with the option to Save, when saved a link to the site appeared at the top of the pages section</li>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The Ugarit site link is here:
+https://hijazi-alaa.github.io/Ugarit-site/
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Credits:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Content
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The main text of the home page is taken from as provided in sources in the footer of the page :
+https://www.heritageforpeace.org/the-hymn-to-nikkal/
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+https://historyandarchaeologyonline.com/ugarit-and-the-origins-of-alphabet/
 
-------
+https://en.wikipedia.org/wiki/Ugaritic_texts
 
-## FAQ about the uptime script
+https://www.worldhistory.org/ugarit/
 
-**Why have you added this script?**
+<hr>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Social Media links logos used fontawsome.com
 
-**How will this affect me?**
+<hr>
+instructions on how to embed a youtube video from google support answers:
+https://support.google.com/youtube/answer/171780?hl=en
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<hr>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Used guide on how to remove underline from a link in HTML since the guide provided by a question in stackoverflow:
+https://stackoverflow.com/questions/10853881/how-to-remove-underline-from-a-link-in-html
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<hr>
 
-**So….?**
+-(i used the html and css essentials provided in Code institute LMS, to regather and remember alot of detaisl throughout the project)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Media
 
-**Can I opt out?**
+Main content image, tourists in Ugarit ruins and image of the royal palace were all taken from wikipedia commons page:
+https://commons.wikimedia.org/wiki/Category:Royal_Palace_of_Ugarit
+and resized to fit the page.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Ugaritic Alphabet image was taken from :
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+https://sana.sy/en/?p=170139 the image was resized to fit the page.
 
-**Anything more?**
+Image of an art description the city of Ugarit taken from a
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+http://artecult.com/o-reino-de-ugarit/ the image was resized to fit the page
 
----
+Image of an art description the royal palace in Ugarit was taken from
 
-Happy coding!
+https://www.pinterest.com/pin/638033472191847970/ the image was reszied to fit the page
+
+image of a letter written to the hittie king on an ugaritic tablet was taken from 
+https://www.archaeology.org/issues/430-2107/features/9752-ugarit-bronze-age-archive  the image was resized to fit the page.
