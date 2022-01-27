@@ -12,10 +12,10 @@ i used figma.com to create a mock up, wish looked like this:
 <hr>
 <br><br>
 
-## Ugarit was tested 
-on [am i responsive](http://ami.responsivedesign.is/)
+## Ugarit 
+was tested on [am i responsive](http://ami.responsivedesign.is/)
 in addition also tested on all screen sizes using google dev tools. i  made the necessary adjustments by applying media query to css to ensure that the site is useable on all screen sizes
- <img src="assets/images/responsive.png">
+ <img src="assets/images/responsive-test.jpg">
 
 ## Main features:
 
