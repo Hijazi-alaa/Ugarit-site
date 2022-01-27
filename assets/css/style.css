@@ -422,10 +422,12 @@ form > h3 {
         line-height: 0px;
     }
     aside {
-        width: 120px;
+        width: 100px;
         height: 280px;
         top: auto;
-        left: 70%;
+        left: 75%;
+        border: none;
+
     }
     aside li {
         margin:2px;
