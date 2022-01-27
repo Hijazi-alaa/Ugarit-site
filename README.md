@@ -84,7 +84,11 @@ I also ran  the site on [Jigsaw](https://jigsaw.w3.org/css-validator/) and the r
 <img src="assets/images/lighthouse-2.jpg">
 
 <li>I test the website on Google chrome, Internet exlorer, Safari for iphone, i had the same error free resaults on all of them</li>
-<li>However upon running the website on Firefox there was unnecessary white space under the footer that i was not able to find the cause or the solution!(only on firefox)</li>
+
+However upon running the website on Firefox there was unnecessary white space under the footer that i was not able to find the cause or the solution at first but after searching and trying different ways to solve it, i found the answer in a fourm of [stackoverflow](https://stackoverflow.com/questions/27484969/white-space-after-the-footer-only-in-firefox)
+where i added overflaw: hidden; to the footer wish solved the problem.
+
+
 <img src="assets/images/firefox.jpg">
 
 <li>I tried ever single external link all of them were working, except for the sources and other pages link in the footer, they were not appearing as clickable links at all andI could not find the exact problem, so i redid the html code for them and now they work fine just like the other links in the page</li>
